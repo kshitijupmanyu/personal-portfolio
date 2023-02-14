@@ -8,9 +8,6 @@ function Work(props) {
         <Image src={props.image} />
 
         <Box p="6">
-          <Badge borderRadius="full" px="2" colorScheme="teal">
-            Under Development
-          </Badge>
           <Box
             mt="10px"
             fontWeight="semibold"
