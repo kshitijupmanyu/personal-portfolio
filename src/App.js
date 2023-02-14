@@ -31,7 +31,7 @@ function App() {
             name="Instagram-Clone"
             description="It is a clone of Instagram made by using Reactjs⚛️ and Firebase🔥. In this you can sign up or sign in to upload images and video and after uploading you can logout." />
           </a>
-          <a href="https://tclone-e9fe4.web.app/"><Work
+          <a href="https://tclone-c986f.web.app/"><Work
             image={tesla}
             name="Tesla-Clone"
             description="Tesla Clone made by using Reactjs⚛️ and Firebase🔥." />
