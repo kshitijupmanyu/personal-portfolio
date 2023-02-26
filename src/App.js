@@ -2,11 +2,13 @@ import React from 'react';
 import './App.css';
 import photo from "./Assets/myphoto.jpg"
 import instagram from "./Assets/instagram.png"
+import Disney from "./Assets/Disney+.png"
 import facebook from "./Assets/facebook.png"
 import twitter from "./Assets/twitter.png"
 import linkedin from "./Assets/linkedin.png"
-import insta from "./Assets/insta-clone.png"
-import tesla from "./Assets/tesla.png"
+import Insta from "./Assets/insta-clone.png"
+import Youtube from "./Assets/Youtube.png"
+import Tesla from "./Assets/tesla.png"
 import Work from './Work';
 import { Badge } from '@chakra-ui/layout';
 
@@ -27,14 +29,28 @@ function App() {
         <h2 className="work-text">Works</h2>
         <div className="work_tile">
           <a href="https://test-insta-clone-8576c.web.app/"><Work
-            image={insta}
-            name="Instagram-Clone"
-            description="It is a clone of Instagram made by using Reactjs⚛️ and Firebase🔥. In this you can sign up or sign in to upload images and video and after uploading you can logout." />
+            badge = {false}
+            image={Insta}
+            name="Instagram"
+            description="It is a clone of Instagram made by using Reactjs and Firebase. In this you can sign up or sign in to upload images and video and after uploading you can logout." />
           </a>
           <a href="https://tclone-c986f.web.app/"><Work
-            image={tesla}
-            name="Tesla-Clone"
-            description="Tesla Clone made by using Reactjs⚛️ and Firebase🔥." />
+            badge = {false}
+            image={Tesla}
+            name="Tesla"
+            description="Tesla Clone powered by Reactjs and Firebase." />
+          </a>
+          <a href="https://disneyplus-clone-ca3f2.web.app/"><Work
+            badge = {true}
+            image={Disney}
+            name="Disney+"
+            description="Disney+ Clone powered by Reactjs, Firebase, Redux and Styled Components." />
+          </a>
+          <a href="https://clone-a6679.web.app/"><Work
+            badge = {false}
+            image={Youtube}
+            name="Youtube"
+            description="Youtube Clone powered by Reactjs, Firebase and Rapid API." />
           </a>
         </div>
       </div>

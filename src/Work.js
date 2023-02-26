@@ -4,12 +4,13 @@ import { Badge, Box, Image } from '@chakra-ui/react';
 function Work(props) {
   return (
     <div>
-      <Box boxShadow="2xl" margin={20} maxW="md" borderWidth="1px" borderRadius="lg" overflow="hidden">
+      <Box boxShadow="2xl" margin={10} maxW="md" borderWidth="1px" borderRadius="xl" overflow="hidden">
         <Image src={props.image} />
-
-        <Box p="6">
+        {props.badge && <Badge mt='5' ml='5' borderRadius='full' px='4' colorScheme='teal'>
+            Under Development
+          </Badge>}
+        <Box p='5'>
           <Box
-            mt="10px"
             fontWeight="semibold"
             fontSize="larger"
             lineHeight="tight"
